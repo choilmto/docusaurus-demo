@@ -1,15 +1,15 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Node.js Mentorship Onboarding Guide',
+  tagline: 'Motivations, Procedures, and Notes for the Mentorship Program',
   url: 'https://flamboyant-aryabhata-36f270.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'choilmto', // Usually your GitHub org/user name.
+  projectName: 'docusaurus-demo', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Node.js Mentorship Onboarding Guide',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -87,13 +87,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/choilmto/docusaurus-demo/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/choilmto/docusaurus-demo/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
